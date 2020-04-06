@@ -1,0 +1,65 @@
+@charset "UTF-8";
+/* CSS Document */
+/*containters */
+.js-power{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	border: 2px solid black;
+}
+
+.content{
+	display: flex;
+	flex-direction: column;
+	border: 2px solid black;
+	text-align: center;
+	list-style: none;
+
+}
+
+.reel{
+	border: 2px solid black;
+
+}
+
+.contact{
+	display: flex;
+	flex-direction: column;
+	width: 30%;
+	margin-top: 10%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.icons{
+	display: flex;
+	margin-top: 5%;
+	justify-content: space-around;
+}
+
+form{
+	display: flex;
+	flex-direction: column;
+}
+
+label{
+	margin-top: 10px;
+}
+
+#hireme, #submit-contact{
+	margin-top: 10px;
+	padding: 5px;
+	margin-left: auto;
+	margin-right: auto;
+	
+}
+
+#hireme:hover, #submit-contact:hover{
+	cursor: pointer;
+	background-color: #666;
+	color: white;
+}
+
+h1{
+	text-align: center;
+}
